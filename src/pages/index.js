@@ -1,0 +1,12 @@
+import React, { PureComponent } from 'react';
+import MainPage from '../src/components/MainPage';
+
+class IndexDocument extends PureComponent {
+   render() {
+      return (
+         <MainPage />
+      )
+   }
+}
+
+export default Index

@@ -41,9 +41,13 @@
     "storybook-addon-jsx": "^7.1.13"
   },
   "scripts": {
+    "dev": "next",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "mockserver": "json-server --watch --delay 500 --port 4000 mock/create.js",
+    "errorserver": "node mock/fack.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
