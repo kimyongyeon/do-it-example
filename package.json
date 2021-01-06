@@ -19,7 +19,7 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "selector-action": "^1.1.1",
-    "axios": "0.18.1",
+    "axios": "0.21.1",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16.3": "^1.4.1",
     "moment": "^2.24.0",
